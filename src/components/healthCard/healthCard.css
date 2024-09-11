@@ -1,0 +1,80 @@
+section{
+    min-height: 100vh;
+    background-color: #fff;
+}
+.Healthhead{
+    display: flex;
+    flex-direction: column;
+    padding: 7rem;
+    gap: 1rem;
+}
+.Healthhead span{
+    color: #1f6fe5;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.healthcard{
+    display: flex;
+    padding: 3rem 5rem;
+    gap: 2rem;
+}
+.cardtitle{
+    font-size: 2rem;
+    color: #2d2e32;
+    font-weight: 600;
+}
+.cardheading{
+    font-size: 1.8rem;
+    color: #1f6fe5;
+    font-weight: 500;
+}
+.healthimg{
+    width: 90%;
+    height: 50rem;
+    border-radius: 1rem;
+}
+p{
+    color: #555;
+    font-size: 1.6rem;
+}
+.card-m{
+    width: 600px;
+    gap: 1rem;
+}
+.learn{
+    font-size: 1.6rem;
+    padding: 1.5rem 2.5rem;
+    border-radius:3rem;
+    letter-spacing: 2px;
+    border: 3px solid #1f6fe5;
+    color: #1f6fe5;
+    background-color: #fff;
+}
+.learn:hover{
+    border:3px solid #555;
+    color: #555;
+    background-color: #d4cdcd;
+}
+@media(max-width:700px){
+    .Healthhead span{
+        font-size: 2.5rem;
+    }
+    .healthcard{
+        flex-direction: column;
+        gap: 3rem;
+        justify-content: center;
+        align-items: center;
+        padding: 0rem 3rem;
+    }
+    .Healthhead{
+        padding: 4rem;
+    }
+    .card-m{
+        width: 450px;
+    }
+}
+@media(max-width:900px){
+    .healthcard{
+        padding: 0rem .5rem;
+    }
+}

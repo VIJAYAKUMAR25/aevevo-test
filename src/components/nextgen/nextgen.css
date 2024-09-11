@@ -1,0 +1,90 @@
+.nextgen-parent{
+    width: 100%;
+    min-height: 100vh;
+    background: #0D2648;
+    padding: 10rem;
+}
+.genimg{
+    width: 100%;
+    height: 50rem;
+}
+.nextgen-t1{
+    font-weight: 700;
+    color: #fff;
+    font-size: 3rem;
+}
+.nextgen-t2{
+    color: #2670d1;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+.ngcard-parent{
+    display: flex;
+    padding: 3rem 1rem;
+    gap: 3rem;
+}
+.ngaccordian{
+    border-radius: 2rem;
+}
+.ngimg{
+    width: 100%;
+    height: 50rem;
+    border-radius: 1rem;
+}
+.ng-card{
+    width: 50rem;
+}
+.ngcard-t1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+}
+.accordian-list{
+    list-style: disc;
+}
+.accordian-list li{
+    margin-bottom: 1rem;
+}
+.ngbtn{
+    padding: 1rem 2rem;
+    background-color:  transparent;
+    outline: 2px solid #fff;
+    border-radius: 3rem;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+}
+.ngbtn:hover{
+    outline: 2px solid #0847a6;
+    color: #0847a6;
+}
+@media(max-width:900px){
+    .nextgen-parent{
+        padding: 5rem 3rem;
+    }
+}
+@media(max-width:800px){
+    .ngcard-parent{
+        flex-direction: column;
+    }
+    .ngimg{
+        width: 100%;
+        height: 50rem;
+        border-radius: 1rem;
+    }
+    .ng-card{
+        width: 40rem;
+    }
+
+}
+@media(max-width:600px){
+    .nextgen-parent{
+        padding:4rem 2rem ;
+    }
+    .genimg{
+        width: 100%;
+        height: 35rem;
+    }
+}

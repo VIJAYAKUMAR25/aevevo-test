@@ -1,0 +1,16 @@
+footer{
+    min-height: 50vh;
+    height: 100%;
+    background-color: rgb(238, 234, 234);
+    padding: 6rem;
+}
+.footer-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2d2e32;
+}
+@media(max-width:800px){
+    footer{
+        padding: 5rem 1rem;
+    }
+}

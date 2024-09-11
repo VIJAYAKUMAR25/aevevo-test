@@ -1,0 +1,72 @@
+.tweet{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f5f1f1;
+    padding: 7rem;
+}
+.tweet-h1{
+    color: #205fb3;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.tweet-h2{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.tweetcard-parent{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tweet-card{
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    background-color: #fff;
+    border: 1px solid #a9a7a7;
+    border-radius: 1rem;
+    padding: 1rem;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.tweet-card p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.tcard-t1{
+    font-size: 1.5rem;
+    color: #2d2e32;
+    font-weight: 700;
+}
+.tcard-t2{
+    font-size: 1.3rem;
+}
+.bi-heart{
+    font-size: 1.5rem;
+    color: #555;
+    font-weight: 500;
+}
+.tweetbtn{
+    padding: 1rem 2rem;
+    background-color:  #1f6fe5;
+    border: none;
+    border-radius: 3rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #fff;
+}
+.tweetbtn:hover{
+    background-color: #0847a6;
+    outline: 1px solid #3E3E3E;
+}
+@media(max-width:800px){
+    .tweetcard-parent{
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width:700px){
+    #second-card{
+        display: none;
+    }
+}

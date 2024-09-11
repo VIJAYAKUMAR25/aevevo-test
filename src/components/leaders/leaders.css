@@ -1,0 +1,31 @@
+.leaders{
+    width: 100%;
+    min-height: 60vh;
+    background-color: #fff;
+    padding: 6rem;
+}
+.leaders-t1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.leaders-t2{
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+.leaders-card{
+    width: 35rem;
+}
+.leadercard-p{
+    font-weight: 500;
+}
+.leaders-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    gap: 2rem;
+}
+@media(max-width:700px){
+    .leaders{
+        padding: 4rem 1rem;
+    }
+}
